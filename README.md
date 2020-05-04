@@ -1,4 +1,4 @@
-# Instagram Clon  📸 📲
+# Instagram Clon  🤳 📲
 
 Mi versión de la red social más utilizada hoy en día.
 
