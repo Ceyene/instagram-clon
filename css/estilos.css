@@ -1,0 +1,254 @@
+/*
+.....................................
+..  _______________________________..
+. /   ______/   _______/   _______/..
+./   /      (______    \ ______   \ .
+.\   \______  _____/   / _____/   /..
+..\________//_________//_________/...
+.....................................
+......Por Cyn Romero (Ce-y-Ene)......
+ */
+ @import url('https://fonts.googleapis.com/css?family=Jost:300,400|Roboto:400,500,700&display=swap');
+
+ :root {
+    --gray: #C7C7C7;
+    --black: #262626;
+    --white: #ffffff;
+    --blue: #00376B;
+    --red: #ED4956;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--black);
+}
+h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+a {
+    color: var(--blue);
+    text-decoration: none;
+}
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+ul {
+    display: flex;
+    padding-inline-start: 0;
+}
+li {
+    list-style: none;
+}
+.container {
+    max-width: 935px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/*Inicio del Header*/
+header {
+    border-bottom: 1px solid #C7C7C7;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 935px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.search {
+    width: 215px;
+    height: 28px;
+    border: 1px solid #C7C7C7;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+}
+.search input {
+    border: none;
+}
+
+.user img {
+    width: 22px;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 50%;
+}
+/*Final del Header*/
+
+/*Inicio Sección Usuario*/
+.user-container {
+    display: flex;
+}
+.profile-img-container {
+    width: 292px;
+    margin-right: 30px;
+    text-align: center;
+}
+.profile-img-container img {
+    max-width: 150px;
+    width: 100%;
+    border-radius: 50%;
+    margin: auto;
+}
+.user-info {
+    margin-bottom: 44px;
+}
+.nickname-container {
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.nickname-container h2 {
+    font-size: 28px;
+    line-height: 32px;
+    margin: -5px 20px -6px 0;
+    font-weight: 300;
+    color: var(--black);
+    font-family: 'Jost', sans-serif;
+}
+.nickname-container a {
+    color: var(--black);
+    padding: 5px 12px;
+    margin-right: 8px;
+    border: 1px solid var(--gray);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.user-buttons {
+    display: flex;
+}
+.stats ul {
+    margin-bottom: 20px;
+}
+.stats li {
+    margin-right: 40px;
+}
+.stats li a {
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 600;
+}
+.info h1 {
+    margin-bottom: 6px;
+}
+/*Final de Sección Usuario*/
+
+/*Inicio Sección Tabs*/
+.tabs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--gray);
+    height: 53px;
+}
+.tabs-container a {
+    color: var(--gray);
+    margin-right: 60px;
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: 500;
+}
+.tabs-container a:first-of-type {
+    color: var(--black);
+    border-top: 1px solid var(--black);
+    padding: 18px 0;
+}
+.tabs-container a:last-of-type {
+    margin-right: 0;
+}
+/*Final de Sección Tabs*/
+
+
+/*Finaliza Sección Posts*/
+.post-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 293px));
+    justify-content: center;
+    gap: 28px;
+}
+
+.post {
+    cursor: pointer;
+    position: relative;
+    display: block;
+
+}
+
+.post-image {
+    margin: 0;
+}
+
+.post img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.post-overlay {
+    background: rgba(0, 0, 0, .4);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.post:hover .post-overlay {
+    display: flex;
+}
+
+.post-likes,
+.post-comments {
+    width: 80px;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+/*Finaliza Sección Posts*/
+
+/*Comienza Footer*/
+footer {
+    padding: 2%
+}
+.ul-footer {
+    justify-content: flex-start;
+    padding-inline-start: 0;
+    max-width: 1012px;
+    margin: auto;
+}
+.ul-footer li {
+    margin-right: 15px;
+}
+.ul-footer li a {
+    text-transform: uppercase;
+    color: #3E678E;
+    font-size: 11.5px;
+    font-weight: 600;
+}
+.atribution {
+    max-width: 1012px;
+    margin: 1% auto;
+    text-align: left;
+}
+.atribution p {
+    color: #989898;
+    text-transform: uppercase;
+    font-size: 11.5px;
+    font-weight: 600;
+}
+/*Finaliza Footer*/

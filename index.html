@@ -4,273 +4,288 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram Clon</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
-    <header>
-        <nav class="navigation">
-        <div class="logo">
-            <a href="https://www.instagram.com/">
-                <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram Logo">
+        <header>
+            <nav class="navigation">
+                <div class="logo">
+                    <a href="https://www.instagram.com/">
+                        <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram Logo">
+                    </a>
+                </div>            
+                <div class="search">
+                    <i class="icon"></i>
+                    <input type="text" placeholder="Busca">
+                    <i class="icon"></i>
+                </div>
+                <div class="icons">
+                        <a href="#" class="icon"></a> 
+                        <a href="#" class="icon"></a>
+                        <a href="#" class="icon"></a>
+                        <a href="#" class="user">
+                            <img src="https://image.freepik.com/foto-gratis/fruta-fresca-gafas-sol_23-2148109314.jpg" alt="Perfil Cynthia">
+                        </a>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+        <section class="user-container">
+            <div class="profile-img-container">
+                <img src="https://image.freepik.com/foto-gratis/fruta-fresca-gafas-sol_23-2148109314.jpg" alt="Perfil Cynthia">
+            </div>
+            <div class="user-info">
+                <div class="nickname-container">
+                    <h2>ce_y_ene</h2>
+                    <ul class="user-buttons">
+                        <li>
+                            <a href="#">Enviar mensaje</a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                    <a href="#">...</a>
+                </div>
+                <div class="stats">
+                    <ul>
+                        <li class="posted stats-item">
+                            <a href="#">18</a>
+                            <span>publicaciones</span>
+                        </li>
+                        <li class="followers stats-item">
+                            <a href="#">500</a>
+                            <span>seguidores</span>
+                        </li>
+                        <li class="following stats-item">
+                            <a href="#">500</a>
+                            <span>seguidos</span>
+                        </li>
+                    </ul>
+                </div>
+                <section class="info">
+                    <h1>Cyn Romero</h1>
+                    <p>Front End Trainee</p>
+                </section>
+            </div>
+
+        </section>
+        <div class="tabs-container">
+            <a href="#" class="tab">
+                <span>Publicaciones</span>
             </a>
-        </div>            
-            <div class="search">
-                <input type="text">
-            </div>
-            <div class="icons">
-                <a href="#" class="icon"></a>
-                <a href="#" class="icon"></a>
-                <a href="#" class="icon"></a>
-                <a href="#" class="user">
-                    <img src="https://image.freepik.com/foto-gratis/fruta-fresca-gafas-sol_23-2148109314.jpg" alt="perfil Cynthia">
-                </a>
-            </div>
-        </nav>
-    </header>
-    <section class="user-container">
-        <div class="profile-img-container"></div>
-        <article class="user-info">
-            <div class="nickname-container"></div>
-            <div class="stats-desktop-container"></div>
-            <section class="name-container"></section>
-        </article>
-    </section>
-    <section class="user-info">
-        <h1 class="name-title">Cyn Romero</h1>
-        <span class="status">Front End Trainee</span>
-    </section>
-    <ul class="stats">
-        <li class="posted stats-item">
-            <a href="#">15</a>
-            <span>publicaciones</span>
-        </li>
-        <li class="followers stats-item">
-            <a href="#">500</a>
-            <span>seguidores</span>
-        </li>
-        <li class="following stats-item">
-            <a href="#">500</a>
-            <span>siguiendo</span>
-        </li>
-    </ul>
-    <div class="tabs-container">
-        <a href="#" class="tab">
-            <svg></svg>
-            <span>Publicaciones</span>
-        </a>
-        <a href="#" class="tab">
-            <svg></svg>
-            <span>IGTV</span>
-        </a>
-        <a href="#" class="tab">
-            <svg></svg>
-            <span>Guardadas</span>
-        </a>
-        <a href="#" class="tab">
-            <svg></svg>
-            <span>Etiquetadas</span>
-        </a>
+            <a href="#" class="tab">
+                <span>IGTV</span>
+            </a>
+            <a href="#" class="tab">
+                <span>Etiquetadas</span>
+            </a>
+        </div>
+        <section class="post-list">
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/portatil-bloc-notas-blanco-mesa_23-2147962673.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/primer-plano-escritura-mano-mujer-nota-adhesiva-portatil-papel-arrugado-sobre-fondo-negro_23-2147916430.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/maquetas-manos-poniendo-tarjeta-computadora-portatil_23-2148304981.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/portatil-bloc-notas-blanco-mesa_23-2147962673.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/primer-plano-escritura-mano-mujer-nota-adhesiva-portatil-papel-arrugado-sobre-fondo-negro_23-2147916430.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/maquetas-manos-poniendo-tarjeta-computadora-portatil_23-2148304981.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/portatil-bloc-notas-blanco-mesa_23-2147962673.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/primer-plano-escritura-mano-mujer-nota-adhesiva-portatil-papel-arrugado-sobre-fondo-negro_23-2147916430.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+            <a href="" class="post">
+                <figure class="post-image">
+                    <img src="https://image.freepik.com/foto-gratis/maquetas-manos-poniendo-tarjeta-computadora-portatil_23-2148304981.jpg" alt="">
+                </figure>
+                <div class="post-overlay">
+                    <p>
+                        <span class="post-likes">150</span>
+                        <span class="post-comments">10</span>
+                    </p>
+                </div>
+            </a>
+        </section>
     </div>
-    <section class="post-list">
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/portatil-bloc-notas-blanco-mesa_23-2147962673.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/primer-plano-escritura-mano-mujer-nota-adhesiva-portatil-papel-arrugado-sobre-fondo-negro_23-2147916430.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/maquetas-manos-poniendo-tarjeta-computadora-portatil_23-2148304981.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/portatil-bloc-notas-blanco-mesa_23-2147962673.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/primer-plano-escritura-mano-mujer-nota-adhesiva-portatil-papel-arrugado-sobre-fondo-negro_23-2147916430.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/maquetas-manos-poniendo-tarjeta-computadora-portatil_23-2148304981.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/portatil-bloc-notas-blanco-mesa_23-2147962673.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/primer-plano-escritura-mano-mujer-nota-adhesiva-portatil-papel-arrugado-sobre-fondo-negro_23-2147916430.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/marco-telon-fondo-textura-marmol_53876-90126.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-        <a href="" class="post">
-            <figure class="post-image">
-                <img src="https://image.freepik.com/foto-gratis/maquetas-manos-poniendo-tarjeta-computadora-portatil_23-2148304981.jpg" alt="">
-            </figure>
-            <div class="post-overlay">
-                <p>
-                    <span class="post-likes">150</span>
-                    <span class="post-comments">10</span>
-                </p>
-            </div>
-        </a>
-    </section>
     <footer>
         <nav class="footer-navigation">
             <ul class="ul-footer">
@@ -308,7 +323,9 @@
                     <a href="#" class="footer-link">Idioma</a>
                 </li>
             </ul>
-            <span>© 2020 Instagram from Facebook</span>
+            <div class="atribution">
+                <p>© 2020 Instagram from Facebook</p>
+            </div>
         </nav>
     </footer>
 </body>
