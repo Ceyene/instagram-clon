@@ -16,6 +16,7 @@
     --white: #ffffff;
     --blue: #00376B;
     --red: #ED4956;
+    --lightblue:#0095F6;
 }
 
 body {
@@ -70,9 +71,28 @@ header {
     border-radius: 3px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .search input {
     border: none;
+    padding-left: 5px;
+}
+
+.search i {
+    color: var(--gray);
+    font-size: 10px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 26px;
+    color: var(--black);
+    margin: 0 10px;
+    font-weight: 100;
 }
 
 .user img {
@@ -115,15 +135,25 @@ header {
     color: var(--black);
     font-family: 'Jost', sans-serif;
 }
-.nickname-container a {
-    color: var(--black);
-    padding: 5px 12px;
+.user-buttons a {
+    color: var(--white);
+    padding: 7px 12px;
     margin-right: 8px;
-    border: 1px solid var(--gray);
+    border: 1px solid var(--lightblue);
     border-radius: 4px;
+    background-color: var(--lightblue);
     font-size: 14px;
     font-weight: 600;
+    line-height: 14px;
 }
+.nickname-container a:last-of-type {
+    font-size: 14px;
+    border: none;
+    background-color: none;
+    margin-right: 20px;
+}
+
+
 .user-buttons {
     display: flex;
 }
@@ -150,6 +180,10 @@ header {
     align-items: center;
     border-top: 1px solid var(--gray);
     height: 53px;
+}
+.tabs-container i {
+    margin-right: 5px;
+    font-size: larger;
 }
 .tabs-container a {
     color: var(--gray);
