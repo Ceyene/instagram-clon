@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?bexavd');
-  src:  url('../fonts/icomoon.eot?bexavd#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?bexavd') format('truetype'),
-    url('../fonts/icomoon.woff?bexavd') format('woff'),
-    url('../fonts/icomoon.svg?bexavd#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?l1jm2p');
+  src:  url('../fonts/icomoon.eot?l1jm2p#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?l1jm2p') format('truetype'),
+    url('../fonts/icomoon.woff?l1jm2p') format('woff'),
+    url('../fonts/icomoon.svg?l1jm2p#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -55,11 +55,8 @@
 .icon-heart-o:before {
   content: "\e90a";
 }
-.icon-paper-plane-o:before {
-  content: "\e907";
-}
-.icon-send-o:before {
-  content: "\e907";
+.icon-message:before {
+  content: "\e949";
 }
 .icon-compass:before {
   content: "\e94a";
